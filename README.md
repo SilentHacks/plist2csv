@@ -9,6 +9,9 @@ mode of [Universal Scrobbler](http://universalscrobbler.com). It parses exported
 Music library file, and for each track it writes a number of `CSV` records equal to the
 play count of the track.
 
+This will also work with the JSON you receive from Apple Music when you request your
+data.
+
 # Usage example
 ```
 $ ./plist2csv.py
